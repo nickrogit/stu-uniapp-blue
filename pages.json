@@ -4,40 +4,42 @@
 		{
 			"path": "pages/tabBar/component/component",
 			"style": {
-				"navigationBarTitleText": "内置组件",
-				"app-plus": {
-					"titleNView": {
-						"buttons": [{
-							"text": "\ue534",
-							"fontSrc": "/static/uni.ttf",
-							"fontSize": "22px",
-							"color": "#999999"
-						}]
-					}
-				}
+				"navigationBarTitleText": "蓝牙H5+"
+			}
+		},
+		{
+			"path": "pages/tabBar/blueya/blueya",
+			"style": {
+				"navigationBarTitleText": "蓝牙DEMO"
 			}
 		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "Hello uniapp",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
-		"mp-alipay": {
-			"titleBarColor": "#FFFFFF"
-		}
-	},
-	"tabBar": {
-		"color": "#7A7E83",
-		"selectedColor": "#007AFF",
-		"borderStyle": "black",
-		"backgroundColor": "#F8F8F8",
-		"list": [{
-				"pagePath": "pages/tabBar/component/component",
-				"iconPath": "static/component.png",
-				"selectedIconPath": "static/componentHL.png",
-				"text": "内置组件"
-			}
-		]
+],
+"globalStyle": {
+	"navigationBarTextStyle": "black",
+	"navigationBarTitleText": "Hello uniapp",
+	"navigationBarBackgroundColor": "#F8F8F8",
+	"backgroundColor": "#F8F8F8",
+	"mp-alipay": {
+		"titleBarColor": "#FFFFFF"
 	}
+},
+"tabBar": {
+	"color": "#7A7E83",
+	"selectedColor": "#007AFF",
+	"borderStyle": "black",
+	"backgroundColor": "#F8F8F8",
+	"list": [{
+			"pagePath": "pages/tabBar/component/component",
+			"iconPath": "static/component.png",
+			"selectedIconPath": "static/componentHL.png",
+			"text": "蓝牙H5+"
+		},
+		{
+			"pagePath": "pages/tabBar/blueya/blueya",
+			"iconPath": "static/component.png",
+			"selectedIconPath": "static/componentHL.png",
+			"text": "蓝牙DEMO"
+		}
+	]
+}
 }
