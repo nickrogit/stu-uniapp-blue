@@ -1,18 +1,18 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],{
 
-/***/ "../../../../../../Users/nickro/MyProj/uniblue/main.js":
-/*!********************************************!*\
-  !*** /Users/nickro/MyProj/uniblue/main.js ***!
-  \********************************************/
+/***/ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/main.js":
+/*!****************************************************!*\
+  !*** /Users/nickro/MyProj/stu-uniapp-blue/main.js ***!
+  \****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/nickro/MyProj/uniblue/pages.json");
+/* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages.json");
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "../../../../../../Users/nickro/MyProj/uniblue/App.vue"));
+var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/App.vue"));
 
-var _store = _interopRequireDefault(__webpack_require__(/*! ./store */ "../../../../../../Users/nickro/MyProj/uniblue/store/index.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
+var _store = _interopRequireDefault(__webpack_require__(/*! ./store */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/store/index.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
 
 _vue.default.config.productionTip = false;
 
@@ -34,44 +34,95 @@ createApp(app).$mount();
 
 /***/ }),
 
-/***/ "../../../../../../Users/nickro/MyProj/uniblue/main.js?{\"page\":\"pages%2FtabBar%2Fblueya%2Fblueya\"}":
-/*!****************************************************************************************!*\
-  !*** /Users/nickro/MyProj/uniblue/main.js?{"page":"pages%2FtabBar%2Fblueya%2Fblueya"} ***!
-  \****************************************************************************************/
+/***/ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/main.js?{\"page\":\"pages%2FtabBar%2Fbluetooth%2Fbluetooth\"}":
+/*!******************************************************************************************************!*\
+  !*** /Users/nickro/MyProj/stu-uniapp-blue/main.js?{"page":"pages%2FtabBar%2Fbluetooth%2Fbluetooth"} ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/nickro/MyProj/uniblue/pages.json");
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages.json");
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _blueya = _interopRequireDefault(__webpack_require__(/*! ./pages/tabBar/blueya/blueya.vue */ "../../../../../../Users/nickro/MyProj/uniblue/pages/tabBar/blueya/blueya.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _bluetooth = _interopRequireDefault(__webpack_require__(/*! ./pages/tabBar/bluetooth/bluetooth.vue */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages/tabBar/bluetooth/bluetooth.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_bluetooth.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/main.js?{\"page\":\"pages%2FtabBar%2Fblueya%2Fblueya\"}":
+/*!************************************************************************************************!*\
+  !*** /Users/nickro/MyProj/stu-uniapp-blue/main.js?{"page":"pages%2FtabBar%2Fblueya%2Fblueya"} ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _blueya = _interopRequireDefault(__webpack_require__(/*! ./pages/tabBar/blueya/blueya.vue */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages/tabBar/blueya/blueya.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_blueya.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
 
 /***/ }),
 
-/***/ "../../../../../../Users/nickro/MyProj/uniblue/main.js?{\"page\":\"pages%2FtabBar%2Fcomponent%2Fcomponent\"}":
-/*!**********************************************************************************************!*\
-  !*** /Users/nickro/MyProj/uniblue/main.js?{"page":"pages%2FtabBar%2Fcomponent%2Fcomponent"} ***!
-  \**********************************************************************************************/
+/***/ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/main.js?{\"page\":\"pages%2FtabBar%2Fblueya2%2Fblueya2\"}":
+/*!**************************************************************************************************!*\
+  !*** /Users/nickro/MyProj/stu-uniapp-blue/main.js?{"page":"pages%2FtabBar%2Fblueya2%2Fblueya2"} ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/nickro/MyProj/uniblue/pages.json");
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages.json");
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _component = _interopRequireDefault(__webpack_require__(/*! ./pages/tabBar/component/component.vue */ "../../../../../../Users/nickro/MyProj/uniblue/pages/tabBar/component/component.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+var _blueya = _interopRequireDefault(__webpack_require__(/*! ./pages/tabBar/blueya2/blueya2.vue */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages/tabBar/blueya2/blueya2.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_blueya.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/main.js?{\"page\":\"pages%2FtabBar%2Fcomponent%2Fcomponent\"}":
+/*!******************************************************************************************************!*\
+  !*** /Users/nickro/MyProj/stu-uniapp-blue/main.js?{"page":"pages%2FtabBar%2Fcomponent%2Fcomponent"} ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _component = _interopRequireDefault(__webpack_require__(/*! ./pages/tabBar/component/component.vue */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages/tabBar/component/component.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_component.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
 
 /***/ }),
 
-/***/ "../../../../../../Users/nickro/MyProj/uniblue/pages.json":
-/*!***********************************************!*\
-  !*** /Users/nickro/MyProj/uniblue/pages.json ***!
-  \***********************************************/
+/***/ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/main.js?{\"page\":\"pages%2FtabBar%2Fh5blue%2Fh5blue\"}":
+/*!************************************************************************************************!*\
+  !*** /Users/nickro/MyProj/stu-uniapp-blue/main.js?{"page":"pages%2FtabBar%2Fh5blue%2Fh5blue"} ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _h5blue = _interopRequireDefault(__webpack_require__(/*! ./pages/tabBar/h5blue/h5blue.vue */ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages/tabBar/h5blue/h5blue.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_h5blue.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages.json":
+/*!*******************************************************!*\
+  !*** /Users/nickro/MyProj/stu-uniapp-blue/pages.json ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -80,10 +131,980 @@ createPage(_component.default);
 
 /***/ }),
 
-/***/ "../../../../../../Users/nickro/MyProj/uniblue/store/index.js":
-/*!***************************************************!*\
-  !*** /Users/nickro/MyProj/uniblue/store/index.js ***!
-  \***************************************************/
+/***/ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/pages/tabBar/h5blue/BluetoothTool.js":
+/*!*********************************************************************************!*\
+  !*** /Users/nickro/MyProj/stu-uniapp-blue/pages/tabBar/h5blue/BluetoothTool.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+ /**
+               * html+ 串口蓝牙操作
+               */
+function BluetoothTool() {
+  var BluetoothAdapter = plus.android.importClass("android.bluetooth.BluetoothAdapter");
+  var Intent = plus.android.importClass("android.content.Intent");
+  var IntentFilter = plus.android.importClass("android.content.IntentFilter");
+  var BluetoothDevice = plus.android.importClass("android.bluetooth.BluetoothDevice");
+  var UUID = plus.android.importClass("java.util.UUID");
+  var Toast = plus.android.importClass("android.widget.Toast");
+  //连接串口设备的 UUID
+  var MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
+
+  var invoke = plus.android.invoke;
+  var btAdapter = BluetoothAdapter.getDefaultAdapter();
+  var activity = plus.android.runtimeMainActivity();
+
+  var btSocket = null;
+  var btInStream = null;
+  var btOutStream = null;
+  var setIntervalId = 0;
+
+  var btFindReceiver = null; //蓝牙搜索广播接收器
+  var btStatusReceiver = null; //蓝牙状态监听广播
+
+  var state = {
+    bluetoothEnable: false, //蓝牙是否开启
+    bluetoothState: "", //当前蓝牙状态
+    discoveryDeviceState: false, //是否正在搜索蓝牙设备
+    readThreadState: false //数据读取线程状态
+  };
+
+  var options = {
+    /**
+                   * 监听蓝牙状态回调
+                   * @param {String} state
+                   */
+    listenBTStatusCallback: function listenBTStatusCallback(state) {},
+    /**
+                                                                        * 搜索到新的蓝牙设备回调
+                                                                        * @param {Device} newDevice
+                                                                        */
+    discoveryDeviceCallback: function discoveryDeviceCallback(newDevice) {},
+    /**
+                                                                              * 蓝牙搜索完成回调
+                                                                              */
+    discoveryFinishedCallback: function discoveryFinishedCallback() {},
+    /**
+                                                                         * 接收到数据回调
+                                                                         * @param {Array} dataByteArr
+                                                                         */
+    readDataCallback: function readDataCallback(dataByteArr) {},
+    /**
+                                                                  * 蓝牙连接中断回调
+                                                                  * @param {Exception} e
+                                                                  */
+    connExceptionCallback: function connExceptionCallback(e) {} };
+
+
+  var bluetoothToolInstance = {
+    state: state, //蓝牙状态
+    init: init, //初始化回调函数
+    isSupportBluetooth: isSupportBluetooth,
+    getBluetoothStatus: getBluetoothStatus,
+    turnOnBluetooth: turnOnBluetooth,
+    turnOffBluetooth: turnOffBluetooth,
+    getPairedDevices: getPairedDevices,
+    discoveryNewDevice: discoveryNewDevice,
+    listenBluetoothStatus: listenBluetoothStatus,
+    connDevice: connDevice,
+    disConnDevice: disConnDevice,
+    cancelDiscovery: cancelDiscovery,
+    readData: readData,
+    sendData: sendData };
+
+  if (window.bluetoothToolInstance) {
+    return window.bluetoothToolInstance;
+  } else {
+    window.bluetoothToolInstance = bluetoothToolInstance;
+    return bluetoothToolInstance;
+  }
+
+  function init(setOptions) {
+    Object.assign(options, setOptions);
+    state.bluetoothEnable = getBluetoothStatus();
+    listenBluetoothStatus();
+  }
+
+  function shortToast(msg) {
+    Toast.makeText(activity, msg, Toast.LENGTH_SHORT).show();
+  }
+
+  /**
+     * 是否支持蓝牙
+     * @return {boolean}
+     */
+  function isSupportBluetooth() {
+    if (btAdapter != null) {
+      return true;
+    }
+    return false;
+  }
+  /**
+     * 获取蓝牙的状态
+     * @return {boolean} 是否已开启
+     */
+  function getBluetoothStatus() {
+    if (btAdapter != null) {
+      return btAdapter.isEnabled();
+    }
+    return false;
+  }
+
+  /**
+     * 打开蓝牙
+     * @param activity
+     * @param requestCode
+     */
+  function turnOnBluetooth() {
+    if (btAdapter == null) {
+      shortToast("没有蓝牙");
+      return;
+    }
+    if (!btAdapter.isEnabled()) {
+      if (activity == null) {
+        shortToast("未获取到activity");
+        return;
+      } else {
+        var intent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+        var requestCode = 1;
+        activity.startActivityForResult(intent, requestCode);
+        return;
+      }
+    } else {
+      shortToast("蓝牙已经打开");
+    }
+  }
+
+  /**
+     * 关闭蓝牙
+     */
+  function turnOffBluetooth() {
+    if (btAdapter != null && btAdapter.isEnabled()) {
+      btAdapter.disable();
+    }
+    if (btFindReceiver != null) {
+      try {
+        activity.unregisterReceiver(btFindReceiver);
+      } catch (e) {
+
+      }
+      btFindReceiver = null;
+    }
+    state.bluetoothEnable = false;
+    cancelDiscovery();
+    closeBtSocket();
+
+    if (btAdapter != null && btAdapter.isEnabled()) {
+      btAdapter.disable();
+      shortToast("蓝牙关闭成功");
+    } else {
+      shortToast("蓝牙已经关闭");
+    }
+  }
+
+  /**
+     * 获取已经配对的设备
+     * @return {Array} connetedDevices
+     */
+  function getPairedDevices() {
+    var pairedDevices = [];
+
+    //蓝牙连接android原生对象，是一个set集合
+    var pairedDevicesAndroid = null;
+    if (btAdapter != null && btAdapter.isEnabled()) {
+      pairedDevicesAndroid = btAdapter.getBondedDevices();
+    } else {
+      shortToast("蓝牙未开启");
+    }
+
+    if (!pairedDevicesAndroid) {
+      return pairedDevices;
+    }
+
+    //遍历连接设备的set集合，转换为js数组
+    var it = invoke(pairedDevicesAndroid, "iterator");
+    while (invoke(it, "hasNext")) {
+      var device = invoke(it, "next");
+      pairedDevices.push({
+        "name": invoke(device, "getName"),
+        "address": invoke(device, "getAddress") });
+
+    }
+    return pairedDevices;
+  }
+
+  /**
+     * 发现设备
+     */
+  function discoveryNewDevice() {
+    if (btFindReceiver != null) {
+      try {
+        activity.unregisterReceiver(btFindReceiver);
+      } catch (e) {
+        console.error(e, " at pages/tabBar/h5blue/BluetoothTool.js:205");
+      }
+      btFindReceiver = null;
+      cancelDiscovery();
+    }
+    var Build = plus.android.importClass("android.os.Build");
+
+    //6.0以后的如果需要利用本机查找周围的wifi和蓝牙设备, 申请权限
+    if (Build.VERSION.SDK_INT >= 6.0) {
+
+    }
+
+    btFindReceiver = plus.android.implements("io.dcloud.android.content.BroadcastReceiver", {
+      "onReceive": function onReceive(context, intent) {
+        plus.android.importClass(context);
+        plus.android.importClass(intent);
+        var action = intent.getAction();
+
+        if (BluetoothDevice.ACTION_FOUND == action) {// 找到设备
+          var device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
+          var newDevice = {
+            "name": plus.android.invoke(device, "getName"),
+            "address": plus.android.invoke(device, "getAddress") };
+
+          options.discoveryDeviceCallback && options.discoveryDeviceCallback(newDevice);
+        }
+        if (BluetoothAdapter.ACTION_DISCOVERY_FINISHED == action) {// 搜索完成
+          cancelDiscovery();
+          options.discoveryFinishedCallback && options.discoveryFinishedCallback();
+        }
+      } });
+
+    var filter = new IntentFilter();
+    filter.addAction(BluetoothDevice.ACTION_FOUND);
+    filter.addAction(BluetoothAdapter.ACTION_DISCOVERY_FINISHED);
+    activity.registerReceiver(btFindReceiver, filter);
+    btAdapter.startDiscovery(); //开启搜索
+    state.discoveryDeviceState = true;
+  }
+
+  /**
+     * 蓝牙状态监听
+     * @param {Activity} activity
+     */
+  function listenBluetoothStatus() {
+    if (btStatusReceiver != null) {
+      try {
+        activity.unregisterReceiver(btStatusReceiver);
+      } catch (e) {
+        console.error(e, " at pages/tabBar/h5blue/BluetoothTool.js:254");
+      }
+      btStatusReceiver = null;
+    }
+
+    btStatusReceiver = plus.android.implements("io.dcloud.android.content.BroadcastReceiver", {
+      "onReceive": function onReceive(context, intent) {
+        plus.android.importClass(context);
+        plus.android.importClass(intent);
+
+        var action = intent.getAction();
+        switch (action) {
+          case BluetoothAdapter.ACTION_STATE_CHANGED:
+            var blueState = intent.getIntExtra(BluetoothAdapter.EXTRA_STATE, 0);
+            var stateStr = "";
+            switch (blueState) {
+              case BluetoothAdapter.STATE_TURNING_ON:
+                stateStr = "STATE_TURNING_ON";
+                break;
+              case BluetoothAdapter.STATE_ON:
+                state.bluetoothEnable = true;
+                stateStr = "STATE_ON";
+                break;
+              case BluetoothAdapter.STATE_TURNING_OFF:
+                stateStr = "STATE_TURNING_OFF";
+                break;
+              case BluetoothAdapter.STATE_OFF:
+                stateStr = "STATE_OFF";
+                state.bluetoothEnable = false;
+                break;}
+
+            state.bluetoothState = stateStr;
+            options.listenBTStatusCallback && options.listenBTStatusCallback(stateStr);
+            break;}
+
+      } });
+
+    var filter = new IntentFilter();
+    filter.addAction(BluetoothAdapter.ACTION_STATE_CHANGED);
+    activity.registerReceiver(btStatusReceiver, filter);
+  }
+
+  /**
+     * 根据蓝牙地址，连接设备
+     * @param {Stirng} address
+     * @return {Boolean}
+     */
+  function connDevice(address) {
+    var InputStream = plus.android.importClass("java.io.InputStream");
+    var OutputStream = plus.android.importClass("java.io.OutputStream");
+    var BluetoothSocket = plus.android.importClass("android.bluetooth.BluetoothSocket");
+
+    cancelDiscovery();
+    if (btSocket != null) {
+      closeBtSocket();
+    }
+    state.readThreadState = false;
+
+    try {
+      var device = invoke(btAdapter, "getRemoteDevice", address);
+      btSocket = invoke(device, "createRfcommSocketToServiceRecord", MY_UUID);
+    } catch (e) {
+      console.error(e, " at pages/tabBar/h5blue/BluetoothTool.js:316");
+      shortToast("连接失败，获取Socket失败！");
+      return false;
+    }
+    try {
+      invoke(btSocket, "connect");
+      readData(); //读数据
+      shortToast("连接成功");
+    } catch (e) {
+      console.error(e, " at pages/tabBar/h5blue/BluetoothTool.js:325");
+      shortToast("连接失败");
+      try {
+        btSocket.close();
+        btSocket = null;
+      } catch (e1) {
+        console.error(e1, " at pages/tabBar/h5blue/BluetoothTool.js:331");
+      }
+      return false;
+    }
+    return true;
+  }
+
+  /**
+     * 断开连接设备
+     * @param {Object} address
+     * @return {Boolean}
+     */
+  function disConnDevice() {
+    if (btSocket != null) {
+      closeBtSocket();
+    }
+    state.readThreadState = false;
+    shortToast("断开连接成功");
+  }
+
+  /**
+     * 断开连接设备
+     * @param {Object} address
+     * @return {Boolean}
+     */
+  function closeBtSocket() {
+    state.readThreadState = false;
+    if (!btSocket) {
+      return;
+    }
+    try {
+      btSocket.close();
+    } catch (e) {
+      console.error(e, " at pages/tabBar/h5blue/BluetoothTool.js:364");
+      btSocket = null;
+    }
+  }
+
+  /**
+     * 取消发现
+     */
+  function cancelDiscovery() {
+    if (btAdapter.isDiscovering()) {
+      btAdapter.cancelDiscovery();
+    }
+    if (btFindReceiver != null) {
+      activity.unregisterReceiver(btFindReceiver);
+      btFindReceiver = null;
+    }
+    state.discoveryDeviceState = false;
+  }
+
+  /**
+     * 读取数据
+     * @param {Object} activity
+     * @param {Function} callback
+     * @return {Boolean}
+     */
+  function readData() {
+    if (!btSocket) {
+      shortToast("请先连接蓝牙设备！");
+      return false;
+    }
+    try {
+      btInStream = invoke(btSocket, "getInputStream");
+      btOutStream = invoke(btSocket, "getOutputStream");
+    } catch (e) {
+      console.error(e, " at pages/tabBar/h5blue/BluetoothTool.js:398");
+      shortToast("创建输入输出流失败！");
+      closeBtSocket();
+      return false;
+    }
+    var setTimeCount = 0;
+    read();
+    state.readThreadState = true;
+    return true;
+
+    /**
+                  * 模拟java多线程读取数据
+                  */
+    function read() {
+      clearInterval(setIntervalId);
+      setIntervalId = setInterval(function () {
+        setTimeCount++;
+        if (state.readThreadState) {
+          var t = new Date().getTime();
+          //心跳检测
+          if (setTimeCount % 20 == 0) {
+            try {
+              btOutStream.write([0]);
+            } catch (e) {
+              state.readThreadState = false;
+              options.connExceptionCallback && options.connExceptionCallback(e);
+            }
+          }
+          var dataArr = [];
+          while (invoke(btInStream, "available") !== 0) {
+            var data = invoke(btInStream, "read");
+            dataArr.push(data);
+            var ct = new Date().getTime();
+            if (ct - t > 20) {
+              break;
+            }
+          }
+          if (dataArr.length > 0) {
+            options.readDataCallback && options.readDataCallback(dataArr);
+          }
+        }
+      }, 40);
+    }
+
+  }
+
+  /**
+     * 发送数据
+     * @param {String} dataStr
+     * @return {Boolean}
+     */
+  function sendData(dataStr) {
+    if (!btOutStream) {
+      shortToast("创建输出流失败！");
+      return;
+    }
+    var bytes = invoke(dataStr, 'getBytes', 'gbk');
+    try {
+      btOutStream.write(bytes);
+    } catch (e) {
+      return false;
+    }
+    return true;
+  }
+};
+
+module.exports = {
+  BluetoothTool: BluetoothTool };
+
+/***/ }),
+
+/***/ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/static/js/BluetoothTool.js":
+/*!***********************************************************************!*\
+  !*** /Users/nickro/MyProj/stu-uniapp-blue/static/js/BluetoothTool.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; /**
+                                                                                                      * html+ 串口蓝牙操作
+                                                                                                      */var _default =
+
+{
+
+  BluetoothTool: function BluetoothTool() {
+    var BluetoothAdapter = plus.android.importClass("android.bluetooth.BluetoothAdapter");
+    var Intent = plus.android.importClass("android.content.Intent");
+    var IntentFilter = plus.android.importClass("android.content.IntentFilter");
+    var BluetoothDevice = plus.android.importClass("android.bluetooth.BluetoothDevice");
+    var UUID = plus.android.importClass("java.util.UUID");
+    var Toast = plus.android.importClass("android.widget.Toast");
+    //连接串口设备的 UUID
+    var MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
+
+    var invoke = plus.android.invoke;
+    var btAdapter = BluetoothAdapter.getDefaultAdapter();
+    var activity = plus.android.runtimeMainActivity();
+
+    var btSocket = null;
+    var btInStream = null;
+    var btOutStream = null;
+    var setIntervalId = 0;
+
+    var btFindReceiver = null; //蓝牙搜索广播接收器
+    var btStatusReceiver = null; //蓝牙状态监听广播
+
+    var state = {
+      bluetoothEnable: false, //蓝牙是否开启
+      bluetoothState: "", //当前蓝牙状态
+      discoveryDeviceState: false, //是否正在搜索蓝牙设备
+      readThreadState: false //数据读取线程状态
+    };
+
+    var options = {
+      /**
+                     * 监听蓝牙状态回调
+                     * @param {String} state
+                     */
+      listenBTStatusCallback: function listenBTStatusCallback(state) {},
+      /**
+                                                                          * 搜索到新的蓝牙设备回调
+                                                                          * @param {Device} newDevice
+                                                                          */
+      discoveryDeviceCallback: function discoveryDeviceCallback(newDevice) {},
+      /**
+                                                                                * 蓝牙搜索完成回调
+                                                                                */
+      discoveryFinishedCallback: function discoveryFinishedCallback() {},
+      /**
+                                                                           * 接收到数据回调
+                                                                           * @param {Array} dataByteArr
+                                                                           */
+      readDataCallback: function readDataCallback(dataByteArr) {},
+      /**
+                                                                    * 蓝牙连接中断回调
+                                                                    * @param {Exception} e
+                                                                    */
+      connExceptionCallback: function connExceptionCallback(e) {} };
+
+
+    var bluetoothToolInstance = {
+      state: state, //蓝牙状态
+      init: init, //初始化回调函数
+      isSupportBluetooth: isSupportBluetooth,
+      getBluetoothStatus: getBluetoothStatus,
+      turnOnBluetooth: turnOnBluetooth,
+      turnOffBluetooth: turnOffBluetooth,
+      getPairedDevices: getPairedDevices,
+      discoveryNewDevice: discoveryNewDevice,
+      listenBluetoothStatus: listenBluetoothStatus,
+      connDevice: connDevice,
+      disConnDevice: disConnDevice,
+      cancelDiscovery: cancelDiscovery,
+      readData: readData,
+      sendData: sendData };
+
+    if (window.bluetoothToolInstance) {
+      return window.bluetoothToolInstance;
+    } else {
+      window.bluetoothToolInstance = bluetoothToolInstance;
+      return bluetoothToolInstance;
+    }
+
+    function init(setOptions) {
+      Object.assign(options, setOptions);
+      state.bluetoothEnable = getBluetoothStatus();
+      listenBluetoothStatus();
+    }
+
+    function shortToast(msg) {
+      Toast.makeText(activity, msg, Toast.LENGTH_SHORT).show();
+    }
+
+    /**
+       * 是否支持蓝牙
+       * @return {boolean}
+       */
+    function isSupportBluetooth() {
+      if (btAdapter != null) {
+        return true;
+      }
+      return false;
+    }
+    /**
+       * 获取蓝牙的状态
+       * @return {boolean} 是否已开启
+       */
+    function getBluetoothStatus() {
+      if (btAdapter != null) {
+        return btAdapter.isEnabled();
+      }
+      return false;
+    }
+
+    /**
+       * 打开蓝牙
+       * @param activity
+       * @param requestCode
+       */
+    function turnOnBluetooth() {
+      if (btAdapter == null) {
+        shortToast("没有蓝牙");
+        return;
+      }
+      if (!btAdapter.isEnabled()) {
+        if (activity == null) {
+          shortToast("未获取到activity");
+          return;
+        } else {
+          var intent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+          var requestCode = 1;
+          activity.startActivityForResult(intent, requestCode);
+          return;
+        }
+      } else {
+        shortToast("蓝牙已经打开");
+      }
+    }
+
+    /**
+       * 关闭蓝牙
+       */
+    function turnOffBluetooth() {
+      if (btAdapter != null && btAdapter.isEnabled()) {
+        btAdapter.disable();
+      }
+      if (btFindReceiver != null) {
+        try {
+          activity.unregisterReceiver(btFindReceiver);
+        } catch (e) {
+
+        }
+        btFindReceiver = null;
+      }
+      state.bluetoothEnable = false;
+      cancelDiscovery();
+      closeBtSocket();
+
+      if (btAdapter != null && btAdapter.isEnabled()) {
+        btAdapter.disable();
+        shortToast("蓝牙关闭成功");
+      } else {
+        shortToast("蓝牙已经关闭");
+      }
+    }
+
+    /**
+       * 获取已经配对的设备
+       * @return {Array} connetedDevices
+       */
+    function getPairedDevices() {
+      var pairedDevices = [];
+
+      //蓝牙连接android原生对象，是一个set集合
+      var pairedDevicesAndroid = null;
+      if (btAdapter != null && btAdapter.isEnabled()) {
+        pairedDevicesAndroid = btAdapter.getBondedDevices();
+      } else {
+        shortToast("蓝牙未开启");
+      }
+
+      if (!pairedDevicesAndroid) {
+        return pairedDevices;
+      }
+
+      //遍历连接设备的set集合，转换为js数组
+      var it = invoke(pairedDevicesAndroid, "iterator");
+      while (invoke(it, "hasNext")) {
+        var device = invoke(it, "next");
+        pairedDevices.push({
+          "name": invoke(device, "getName"),
+          "address": invoke(device, "getAddress") });
+
+      }
+      return pairedDevices;
+    }
+
+    /**
+       * 发现设备
+       */
+    function discoveryNewDevice() {
+      if (btFindReceiver != null) {
+        try {
+          activity.unregisterReceiver(btFindReceiver);
+        } catch (e) {
+          console.error(e, " at static/js/BluetoothTool.js:208");
+        }
+        btFindReceiver = null;
+        cancelDiscovery();
+      }
+      var Build = plus.android.importClass("android.os.Build");
+
+      //6.0以后的如果需要利用本机查找周围的wifi和蓝牙设备, 申请权限
+      if (Build.VERSION.SDK_INT >= 6.0) {
+
+      }
+
+      btFindReceiver = plus.android.implements("io.dcloud.android.content.BroadcastReceiver", {
+        "onReceive": function onReceive(context, intent) {
+          plus.android.importClass(context);
+          plus.android.importClass(intent);
+          var action = intent.getAction();
+
+          if (BluetoothDevice.ACTION_FOUND == action) {// 找到设备
+            var device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE);
+            var newDevice = {
+              "name": plus.android.invoke(device, "getName"),
+              "address": plus.android.invoke(device, "getAddress") };
+
+            options.discoveryDeviceCallback && options.discoveryDeviceCallback(newDevice);
+          }
+          if (BluetoothAdapter.ACTION_DISCOVERY_FINISHED == action) {// 搜索完成
+            cancelDiscovery();
+            options.discoveryFinishedCallback && options.discoveryFinishedCallback();
+          }
+        } });
+
+      var filter = new IntentFilter();
+      filter.addAction(BluetoothDevice.ACTION_FOUND);
+      filter.addAction(BluetoothAdapter.ACTION_DISCOVERY_FINISHED);
+      activity.registerReceiver(btFindReceiver, filter);
+      btAdapter.startDiscovery(); //开启搜索
+      state.discoveryDeviceState = true;
+    }
+
+    /**
+       * 蓝牙状态监听
+       * @param {Activity} activity
+       */
+    function listenBluetoothStatus() {
+      if (btStatusReceiver != null) {
+        try {
+          activity.unregisterReceiver(btStatusReceiver);
+        } catch (e) {
+          console.error(e, " at static/js/BluetoothTool.js:257");
+        }
+        btStatusReceiver = null;
+      }
+
+      btStatusReceiver = plus.android.implements("io.dcloud.android.content.BroadcastReceiver", {
+        "onReceive": function onReceive(context, intent) {
+          plus.android.importClass(context);
+          plus.android.importClass(intent);
+
+          var action = intent.getAction();
+          switch (action) {
+            case BluetoothAdapter.ACTION_STATE_CHANGED:
+              var blueState = intent.getIntExtra(BluetoothAdapter.EXTRA_STATE, 0);
+              var stateStr = "";
+              switch (blueState) {
+                case BluetoothAdapter.STATE_TURNING_ON:
+                  stateStr = "STATE_TURNING_ON";
+                  break;
+                case BluetoothAdapter.STATE_ON:
+                  state.bluetoothEnable = true;
+                  stateStr = "STATE_ON";
+                  break;
+                case BluetoothAdapter.STATE_TURNING_OFF:
+                  stateStr = "STATE_TURNING_OFF";
+                  break;
+                case BluetoothAdapter.STATE_OFF:
+                  stateStr = "STATE_OFF";
+                  state.bluetoothEnable = false;
+                  break;}
+
+              state.bluetoothState = stateStr;
+              options.listenBTStatusCallback && options.listenBTStatusCallback(stateStr);
+              break;}
+
+        } });
+
+      var filter = new IntentFilter();
+      filter.addAction(BluetoothAdapter.ACTION_STATE_CHANGED);
+      activity.registerReceiver(btStatusReceiver, filter);
+    }
+
+    /**
+       * 根据蓝牙地址，连接设备
+       * @param {Stirng} address
+       * @return {Boolean}
+       */
+    function connDevice(address) {
+      var InputStream = plus.android.importClass("java.io.InputStream");
+      var OutputStream = plus.android.importClass("java.io.OutputStream");
+      var BluetoothSocket = plus.android.importClass("android.bluetooth.BluetoothSocket");
+
+      cancelDiscovery();
+      if (btSocket != null) {
+        closeBtSocket();
+      }
+      state.readThreadState = false;
+
+      try {
+        var device = invoke(btAdapter, "getRemoteDevice", address);
+        btSocket = invoke(device, "createRfcommSocketToServiceRecord", MY_UUID);
+      } catch (e) {
+        console.error(e, " at static/js/BluetoothTool.js:319");
+        shortToast("连接失败，获取Socket失败！");
+        return false;
+      }
+      try {
+        invoke(btSocket, "connect");
+        readData(); //读数据
+        shortToast("连接成功");
+      } catch (e) {
+        console.error(e, " at static/js/BluetoothTool.js:328");
+        shortToast("连接失败");
+        try {
+          btSocket.close();
+          btSocket = null;
+        } catch (e1) {
+          console.error(e1, " at static/js/BluetoothTool.js:334");
+        }
+        return false;
+      }
+      return true;
+    }
+
+    /**
+       * 断开连接设备
+       * @param {Object} address
+       * @return {Boolean}
+       */
+    function disConnDevice() {
+      if (btSocket != null) {
+        closeBtSocket();
+      }
+      state.readThreadState = false;
+      shortToast("断开连接成功");
+    }
+
+    /**
+       * 断开连接设备
+       * @param {Object} address
+       * @return {Boolean}
+       */
+    function closeBtSocket() {
+      state.readThreadState = false;
+      if (!btSocket) {
+        return;
+      }
+      try {
+        btSocket.close();
+      } catch (e) {
+        console.error(e, " at static/js/BluetoothTool.js:367");
+        btSocket = null;
+      }
+    }
+
+    /**
+       * 取消发现
+       */
+    function cancelDiscovery() {
+      if (btAdapter.isDiscovering()) {
+        btAdapter.cancelDiscovery();
+      }
+      if (btFindReceiver != null) {
+        activity.unregisterReceiver(btFindReceiver);
+        btFindReceiver = null;
+      }
+      state.discoveryDeviceState = false;
+    }
+
+    /**
+       * 读取数据
+       * @param {Object} activity
+       * @param {Function} callback
+       * @return {Boolean}
+       */
+    function readData() {
+      if (!btSocket) {
+        shortToast("请先连接蓝牙设备！");
+        return false;
+      }
+      try {
+        btInStream = invoke(btSocket, "getInputStream");
+        btOutStream = invoke(btSocket, "getOutputStream");
+      } catch (e) {
+        console.error(e, " at static/js/BluetoothTool.js:401");
+        shortToast("创建输入输出流失败！");
+        closeBtSocket();
+        return false;
+      }
+      var setTimeCount = 0;
+      read();
+      state.readThreadState = true;
+      return true;
+
+      /**
+                    * 模拟java多线程读取数据
+                    */
+      function read() {
+        clearInterval(setIntervalId);
+        setIntervalId = setInterval(function () {
+          setTimeCount++;
+          if (state.readThreadState) {
+            var t = new Date().getTime();
+            //心跳检测
+            if (setTimeCount % 20 == 0) {
+              try {
+                btOutStream.write([0]);
+              } catch (e) {
+                state.readThreadState = false;
+                options.connExceptionCallback && options.connExceptionCallback(e);
+              }
+            }
+            var dataArr = [];
+            while (invoke(btInStream, "available") !== 0) {
+              var data = invoke(btInStream, "read");
+              dataArr.push(data);
+              var ct = new Date().getTime();
+              if (ct - t > 20) {
+                break;
+              }
+            }
+            if (dataArr.length > 0) {
+              options.readDataCallback && options.readDataCallback(dataArr);
+            }
+          }
+        }, 40);
+      }
+
+    }
+
+    /**
+       * 发送数据
+       * @param {String} dataStr
+       * @return {Boolean}
+       */
+    function sendData(str) {
+      if (!btOutStream) {
+        shortToast("创建输出流失败！");
+        return;
+      }
+      //console.log(str);
+      var bytes = invoke(str, 'getBytes', 'gbk');
+      try {
+        btOutStream.write([0x1B, 0x40]);
+        btOutStream.write([0x1d, 0x21, 0x11]); //宽高加倍 //也可以用 0x11 字体相对小
+        //			btOutStream.write([0x1b, 0x61, 0x00]);//左边对齐
+        btOutStream.write([0x1b, 0x61, 0x01]); //中间对齐
+        //			btOutStream.write([0x1b, 0x61, 0x02]);//右边对齐
+        //			btOutStream.write([0x1b, 0x45, 0x01]);//加粗
+        btOutStream.write(invoke('优乐农', 'getBytes', 'gbk'));
+        btOutStream.write(0x0D); //打印加换行
+        btOutStream.write([0x1B, 0x40]); //初始化
+        btOutStream.write([0x1b, 0x61, 0x01]); //中间对齐
+        btOutStream.write([0x1d, 0x21, 0x00]); //宽高加倍
+
+        btOutStream.write([0x1B, 0x40]);
+        btOutStream.write(bytes);
+        //btOutStream.write(0x0D);
+        //btOutStream.flush();
+        //btOutStream.close(); 
+        //btOutStream.newLine(); 
+      } catch (e) {
+        return false;
+      }
+      return true;
+    }
+  } };exports.default = _default;
+
+/***/ }),
+
+/***/ "../../../../../../Users/nickro/MyProj/stu-uniapp-blue/store/index.js":
+/*!***********************************************************!*\
+  !*** /Users/nickro/MyProj/stu-uniapp-blue/store/index.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -210,7 +1231,7 @@ var camelize = cached(function (str) {
   return str.replace(camelizeRE, function (_, c) {return c ? c.toUpperCase() : '';});
 });
 
-var SYNC_API_RE = /requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;
+var SYNC_API_RE = /subNVue|requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;
 
 var CONTEXT_API_RE = /^create|Manager$/;
 
@@ -315,6 +1336,8 @@ function upx2px(number, newDeviceWidth) {
 }
 
 var protocols = {};
+var todos = [];
+var canIUses = [];
 
 var CALLBACKS = ['success', 'fail', 'cancel', 'complete'];
 
@@ -418,6 +1441,68 @@ TODOS.forEach(function (name) {
   todoApis[name] = createTodoApi(name);
 });
 
+function wrapper$1(webview) {
+  webview.$processed = true;
+  if (!webview.__uniapp_mask_id) {
+    return;
+  }
+  var maskColor = webview.__uniapp_mask;
+  var maskWebview = plus.webview.getWebviewById(webview.__uniapp_mask_id);
+  var oldShow = webview.show;
+  var oldHide = webview.hide;
+  var oldClose = webview.close;
+
+  var showMask = function showMask() {
+    maskWebview.setStyle({
+      mask: maskColor });
+
+  };
+  var closeMask = function closeMask() {
+    maskWebview.setStyle({
+      mask: 'none' });
+
+  };
+  webview.show = function () {
+    showMask();for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {args[_key2] = arguments[_key2];}
+    return oldShow.apply(webview, args);
+  };
+  webview.hide = function () {
+    closeMask();for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {args[_key3] = arguments[_key3];}
+    return oldHide.apply(webview, args);
+  };
+  webview.close = function () {
+    closeMask();
+    callbacks = [];for (var _len4 = arguments.length, args = new Array(_len4), _key4 = 0; _key4 < _len4; _key4++) {args[_key4] = arguments[_key4];}
+    return oldClose.apply(webview, args);
+  };
+  webview.postMessage = function (data) {
+    plus.webview.postMessageToUniNView({
+      type: 'UniAppSubNVue',
+      data: data,
+      options: {
+        id: webview.id } },
+
+    webview.id);
+  };
+  var callbacks = [];
+  webview.onMessage = function (callback) {
+    callbacks.push(callback);
+  };
+  webview.$consumeMessage = function (e) {
+    callbacks.forEach(function (callback) {return callback(e);});
+  };
+}
+
+var subNVue = {
+  getSubNVueById: function getSubNVueById(id) {
+    var webview = plus.webview.getWebviewById(id);
+    if (webview && !webview.$processed) {
+      wrapper$1(webview);
+    }
+    return webview;
+  } };
+
+
 function requireNativePlugin(pluginName) {
   /* eslint-disable no-undef */
   if (typeof weex !== 'undefined') {
@@ -428,7 +1513,8 @@ function requireNativePlugin(pluginName) {
 }
 
 var api = /*#__PURE__*/Object.freeze({
-  requireNativePlugin: requireNativePlugin });
+  requireNativePlugin: requireNativePlugin,
+  subNVue: subNVue });
 
 
 var MPPage = Page;
@@ -447,13 +1533,12 @@ function initTriggerEvent(mpInstance) {
     }
   }
   var oldTriggerEvent = mpInstance.triggerEvent;
-  mpInstance.triggerEvent = function (event) {for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {args[_key2 - 1] = arguments[_key2];}
+  mpInstance.triggerEvent = function (event) {for (var _len5 = arguments.length, args = new Array(_len5 > 1 ? _len5 - 1 : 0), _key5 = 1; _key5 < _len5; _key5++) {args[_key5 - 1] = arguments[_key5];}
     return oldTriggerEvent.apply(mpInstance, [customize(event)].concat(args));
   };
 }
 
-Page = function Page() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  var name = 'onLoad';
+function initHook(name, options) {
   var oldHook = options[name];
   if (!oldHook) {
     options[name] = function () {
@@ -461,26 +1546,49 @@ Page = function Page() {var options = arguments.length > 0 && arguments[0] !== u
     };
   } else {
     options[name] = function () {
-      initTriggerEvent(this);for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {args[_key3] = arguments[_key3];}
+      initTriggerEvent(this);for (var _len6 = arguments.length, args = new Array(_len6), _key6 = 0; _key6 < _len6; _key6++) {args[_key6] = arguments[_key6];}
       return oldHook.apply(this, args);
     };
   }
+}
+
+Page = function Page() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  initHook('onLoad', options);
   return MPPage(options);
 };
 
-var behavior = Behavior({
-  created: function created() {
-    initTriggerEvent(this);
-  } });
-
-
 Component = function Component() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-  (options.behaviors || (options.behaviors = [])).unshift(behavior);
+  initHook('created', options);
   return MPComponent(options);
 };
 
 var mocks = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__'];
 
+function initBehavior(options) {
+  return Behavior(options);
+}
+function initRefs(vm) {
+  var mpInstance = vm.$scope;
+  Object.defineProperty(vm, '$refs', {
+    get: function get() {
+      var $refs = {};
+      var components = mpInstance.selectAllComponents('.vue-ref');
+      components.forEach(function (component) {
+        var ref = component.dataset.ref;
+        $refs[ref] = component.$vm || component;
+      });
+      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');
+      forComponents.forEach(function (component) {
+        var ref = component.dataset.ref;
+        if (!$refs[ref]) {
+          $refs[ref] = [];
+        }
+        $refs[ref].push(component.$vm || component);
+      });
+      return $refs;
+    } });
+
+}
 function triggerLink(mpInstance, vueOptions) {
   mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {
     bubbles: true,
@@ -504,18 +1612,19 @@ function handleLink(event) {
 }
 
 function initPage$1(pageOptions) {
-  initComponent$1(pageOptions);
+  return initComponent$1(pageOptions);
 }
 
 function initComponent$1(componentOptions) {
   componentOptions.methods.$getAppWebview = function () {
     return plus.webview.getWebviewById("".concat(this.__wxWebviewId__));
   };
+  return Component(componentOptions);
 }
 
-function initMocks(vm, mocks) {
+function initMocks(vm, mocks$$1) {
   var mpInstance = vm.$mp[vm.mpType];
-  mocks.forEach(function (mock) {
+  mocks$$1.forEach(function (mock) {
     if (hasOwn(mpInstance, mock)) {
       vm[mock] = mpInstance[mock];
     }
@@ -600,7 +1709,7 @@ function getBehaviors(vueOptions) {
   }
   if (isPlainObject(vueExtends) && vueExtends.props) {
     behaviors.push(
-    Behavior({
+    initBehavior({
       properties: getProperties(vueExtends.props, true) }));
 
 
@@ -609,7 +1718,7 @@ function getBehaviors(vueOptions) {
     vueMixins.forEach(function (vueMixin) {
       if (isPlainObject(vueMixin) && vueMixin.props) {
         behaviors.push(
-        Behavior({
+        initBehavior({
           properties: getProperties(vueMixin.props, true) }));
 
 
@@ -679,7 +1788,7 @@ function getProperties(props) {var isBehavior = arguments.length > 1 && argument
   return properties;
 }
 
-function wrapper$1(event) {
+function wrapper$2(event) {
   // TODO 又得兼容 mpvue 的 mp 对象
   try {
     event.mp = JSON.parse(JSON.stringify(event));
@@ -830,7 +1939,7 @@ var ONCE = '~';
 var CUSTOM = '^';
 
 function handleEvent(event) {var _this = this;
-  event = wrapper$1(event);
+  event = wrapper$2(event);
 
   // [['tap',[['handle',[1,2,a]],['handle1',[1,2,a]]]]]
   var eventOpts = (event.currentTarget || event.target).dataset.eventOpts;
@@ -877,29 +1986,6 @@ function handleEvent(event) {var _this = this;
   });
 }
 
-function initRefs(vm) {
-  var mpInstance = vm.$mp[vm.mpType];
-  Object.defineProperty(vm, '$refs', {
-    get: function get() {
-      var $refs = {};
-      var components = mpInstance.selectAllComponents('.vue-ref');
-      components.forEach(function (component) {
-        var ref = component.dataset.ref;
-        $refs[ref] = component.$vm || component;
-      });
-      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');
-      forComponents.forEach(function (component) {
-        var ref = component.dataset.ref;
-        if (!$refs[ref]) {
-          $refs[ref] = [];
-        }
-        $refs[ref].push(component.$vm || component);
-      });
-      return $refs;
-    } });
-
-}
-
 var hooks = [
 'onHide',
 'onError',
@@ -920,24 +2006,27 @@ function initVm(vm) {
 }
 
 function createApp(vm) {
-  // 外部初始化时 Vue 还未初始化，放到 createApp 内部初始化 mixin
+
   _vue.default.mixin({
     beforeCreate: function beforeCreate() {
       if (!this.$options.mpType) {
         return;
       }
+
       this.mpType = this.$options.mpType;
+
       this.$mp = _defineProperty({
         data: {} },
       this.mpType, this.$options.mpInstance);
+
+
+      this.$scope = this.$options.mpInstance;
 
       delete this.$options.mpType;
       delete this.$options.mpInstance;
 
       if (this.mpType !== 'app') {
-        {// 头条的 selectComponent 竟然是异步的
-          initRefs(this);
-        }
+        initRefs(this);
         initMocks(this, mocks);
       }
     },
@@ -1048,9 +2137,7 @@ function createPage(vueOptions) {
 
   initHooks(pageOptions.methods, hooks$1);
 
-  initPage$1(pageOptions);
-
-  return Component(pageOptions);
+  return initPage$1(pageOptions, vueOptions);
 }
 
 function initVm$2(VueComponent) {
@@ -1058,16 +2145,18 @@ function initVm$2(VueComponent) {
     return;
   }
 
+  var properties = this.properties;
+
   var options = {
     mpType: 'component',
     mpInstance: this,
-    propsData: this.properties };
+    propsData: properties };
 
   // 初始化 vue 实例
   this.$vm = new VueComponent(options);
 
   // 处理$slots,$scopedSlots（暂不支持动态变化$slots）
-  var vueSlots = this.properties.vueSlots;
+  var vueSlots = properties.vueSlots;
   if (Array.isArray(vueSlots) && vueSlots.length) {
     var $slots = Object.create(null);
     vueSlots.forEach(function (slotName) {
@@ -1083,11 +2172,17 @@ function initVm$2(VueComponent) {
 function createComponent(vueOptions) {
   vueOptions = vueOptions.default || vueOptions;
 
+  var VueComponent;
+  if (isFn(vueOptions)) {
+    VueComponent = vueOptions; // TODO form-field props.name,props.value
+    vueOptions = VueComponent.extendOptions;
+  } else {
+    VueComponent = _vue.default.extend(vueOptions);
+  }
+
   var behaviors = getBehaviors(vueOptions);
 
   var properties = getProperties(vueOptions.props, false, vueOptions.__file);
-
-  var VueComponent = _vue.default.extend(vueOptions);
 
   var componentOptions = {
     options: {
@@ -1133,10 +2228,19 @@ function createComponent(vueOptions) {
 
 
 
-  initComponent$1(componentOptions);
-
-  return Component(componentOptions);
+  return initComponent$1(componentOptions, vueOptions);
 }
+
+todos.forEach(function (todoApi) {
+  protocols[todoApi] = false;
+});
+
+canIUses.forEach(function (canIUseApi) {
+  var apiName = protocols[canIUseApi] && protocols[canIUseApi].name ? protocols[canIUseApi].name : canIUseApi;
+  if (!wx.canIUse(apiName)) {
+    protocols[canIUseApi] = false;
+  }
+});
 
 var uni = {};
 
@@ -1810,8 +2914,8 @@ if (true) {
 
   formatComponentName = function (vm, includeFile) {
     {
-      if(vm.$mp && vm.$mp[vm.mpType]){
-        return vm.$mp[vm.mpType].is
+      if(vm.$scope && vm.$scope.is){
+        return vm.$scope.is
       }
     }
     if (vm.$root === vm) {
@@ -6618,7 +7722,7 @@ function type(obj) {
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
         if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG) {
-            var mpInstance = vm.$mp[vm.mpType];
+            var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
         }
@@ -6639,14 +7743,14 @@ function nextTick$1(vm, cb) {
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
         if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG){
-            var mpInstance = vm.$mp[vm.mpType];
+            var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
         if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG){
-            var mpInstance$1 = vm.$mp[vm.mpType];
+            var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
         }
@@ -6705,7 +7809,7 @@ var patch = function(oldVnode, vnode) {
         return
     }
     if (this.mpType === 'page' || this.mpType === 'component') {
-        var mpInstance = this.$mp[this.mpType];
+        var mpInstance = this.$scope;
         var data = cloneWithData(this);
         data.__webviewId__ = mpInstance.data.__webviewId__;
         var mpData = Object.create(null);
@@ -6887,8 +7991,8 @@ function internalMixin(Vue) {
     var oldEmit = Vue.prototype.$emit;
 
     Vue.prototype.$emit = function(event) {
-        if (this.$mp && event) {
-            this.$mp[this.mpType]['triggerEvent'](event, {
+        if (this.$scope && event) {
+            this.$scope['triggerEvent'](event, {
                 __args__: toArray(arguments, 1)
             });
         }
@@ -6901,8 +8005,8 @@ function internalMixin(Vue) {
 
     MP_METHODS.forEach(function (method) {
         Vue.prototype[method] = function(args) {
-            if (this.$mp) {
-                return this.$mp[this.mpType][method](args)
+            if (this.$scope) {
+                return this.$scope[method](args)
             }
         };
     });
@@ -6992,6 +8096,7 @@ var LIFECYCLE_HOOKS$1 = [
     'onReachBottom',
     'onTabItemTap',
     'onShareAppMessage',
+    'onResize',
     'onPageScroll',
     'onNavigationBarButtonTap',
     'onBackPress',
@@ -6999,7 +8104,7 @@ var LIFECYCLE_HOOKS$1 = [
     'onNavigationBarSearchInputConfirmed',
     'onNavigationBarSearchInputClicked',
     //Component
-    'onReady', // 兼容旧版本，应该移除该事件
+    // 'onReady', // 兼容旧版本，应该移除该事件
     'onPageShow',
     'onPageHide',
     'onPageResize'

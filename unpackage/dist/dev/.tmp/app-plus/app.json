@@ -1,12 +1,15 @@
 {
   "pages": [
     "pages/tabBar/component/component",
-    "pages/tabBar/blueya/blueya"
+    "pages/tabBar/blueya/blueya",
+    "pages/tabBar/blueya2/blueya2",
+    "pages/tabBar/bluetooth/bluetooth",
+    "pages/tabBar/h5blue/h5blue"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "Hello uniapp",
+    "navigationBarTitleText": "blueya",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
@@ -26,7 +29,25 @@
         "pagePath": "pages/tabBar/blueya/blueya",
         "iconPath": "static/component.png",
         "selectedIconPath": "static/componentHL.png",
-        "text": "蓝牙DEMO"
+        "text": "蓝牙VUE01"
+      },
+      {
+        "pagePath": "pages/tabBar/blueya2/blueya2",
+        "iconPath": "static/component.png",
+        "selectedIconPath": "static/componentHL.png",
+        "text": "蓝牙VUE02"
+      },
+      {
+        "pagePath": "pages/tabBar/bluetooth/bluetooth",
+        "iconPath": "static/component.png",
+        "selectedIconPath": "static/componentHL.png",
+        "text": "bluetooth"
+      },
+      {
+        "pagePath": "pages/tabBar/h5blue/h5blue",
+        "iconPath": "static/component.png",
+        "selectedIconPath": "static/componentHL.png",
+        "text": "h5blue"
       }
     ]
   },
@@ -35,6 +56,6 @@
     "autoclose": false
   },
   "appname": "uni-bluetooth",
-  "compilerVersion": "1.9.4",
+  "compilerVersion": "1.9.7",
   "usingComponents": {}
 }

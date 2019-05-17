@@ -12,34 +12,62 @@
 			"style": {
 				"navigationBarTitleText": "蓝牙DEMO"
 			}
+		}, {
+			"path": "pages/tabBar/blueya2/blueya2",
+			"style": {}
+		}, {
+			"path": "pages/tabBar/bluetooth/bluetooth",
+			"style": {}
 		}
-],
-"globalStyle": {
-	"navigationBarTextStyle": "black",
-	"navigationBarTitleText": "Hello uniapp",
-	"navigationBarBackgroundColor": "#F8F8F8",
-	"backgroundColor": "#F8F8F8",
-	"mp-alipay": {
-		"titleBarColor": "#FFFFFF"
+	    ,{
+            "path" : "pages/tabBar/h5blue/h5blue",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "blueya",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"mp-alipay": {
+			"titleBarColor": "#FFFFFF"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/tabBar/component/component",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "蓝牙H5+"
+			},
+			{
+				"pagePath": "pages/tabBar/blueya/blueya",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "蓝牙VUE01"
+			},
+			{
+				"pagePath": "pages/tabBar/blueya2/blueya2",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "蓝牙VUE02"
+			},
+			{
+				"pagePath": "pages/tabBar/bluetooth/bluetooth",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "bluetooth"
+			},
+			{
+				"pagePath": "pages/tabBar/h5blue/h5blue",
+				"iconPath": "static/component.png",
+				"selectedIconPath": "static/componentHL.png",
+				"text": "h5blue"
+			}
+		]
 	}
-},
-"tabBar": {
-	"color": "#7A7E83",
-	"selectedColor": "#007AFF",
-	"borderStyle": "black",
-	"backgroundColor": "#F8F8F8",
-	"list": [{
-			"pagePath": "pages/tabBar/component/component",
-			"iconPath": "static/component.png",
-			"selectedIconPath": "static/componentHL.png",
-			"text": "蓝牙H5+"
-		},
-		{
-			"pagePath": "pages/tabBar/blueya/blueya",
-			"iconPath": "static/component.png",
-			"selectedIconPath": "static/componentHL.png",
-			"text": "蓝牙DEMO"
-		}
-	]
-}
 }
