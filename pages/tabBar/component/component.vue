@@ -1,4 +1,7 @@
 <template>
+	
+	
+	
 	<view>
 		<button type="primary" size="mini" @tap="openBluetoothAdapter">打开蓝牙模块</button>
 		<button type="primary" size="mini" @tap="getBluetoothState">获取蓝牙状态</button>
@@ -24,6 +27,9 @@
 		<block  v-for="(item,index) in devicesList2" :key="index">
 		    <view>{{item.deviceId}} ：{{item.name}}</view>
 		</block>
+		
+		<button type="primary" @tap="gotoWebView">蓝牙webview</button>
+		
 	</view>
 </template>
 
@@ -43,6 +49,11 @@
 			});
 		},
 		methods: {
+			gotoWebView() {
+				uni.navigateTo({
+					url: '/pages/tabBar/plush5/plush5'
+				});
+			},
 			// 打开蓝牙模块
 			openBluetoothAdapter(){
 				var that = this

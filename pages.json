@@ -18,12 +18,14 @@
 		}, {
 			"path": "pages/tabBar/bluetooth/bluetooth",
 			"style": {}
+		}, {
+			"path": "pages/tabBar/h5blue/h5blue",
+			"style": {}
+		}, {
+			"path": "pages/tabBar/plush5/plush5",
+			"style": {}
 		}
-	    ,{
-            "path" : "pages/tabBar/h5blue/h5blue",
-            "style" : {}
-        }
-    ],
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "blueya",
