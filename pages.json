@@ -24,6 +24,11 @@
 		}, {
 			"path": "pages/tabBar/plush5/plush5",
 			"style": {}
+		}, {
+			"path": "pages/tabBar/uni-blue/uni-blue",
+			"style": {
+				"navigationBarTitleText": "uni blue api"
+			}
 		}
 	],
 	"globalStyle": {
