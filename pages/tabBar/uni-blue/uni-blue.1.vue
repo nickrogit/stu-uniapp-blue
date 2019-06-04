@@ -5,30 +5,32 @@
 		<button type="primary" @click="stopBluetoothDevicesDiscovery">停止搜寻附近的蓝牙外围设备</button>
 		<view>设备：{{deivceValue}}</view>
 		<view>设备Id：{{deviceId}}</view>
-		<button type="primary" @click="selectDevice">选择 设备</button>
+		<button type="primary" @click="selectDevice">展开设备列表</button>
 		<button type="primary" @click="connectDevice">连接蓝牙设备</button>
+		<!-- 设备列表 -->
+		<!-- <view>设备列表:</view>
+		<view v-if="bdsList.length > 0">
+			<view v-for="(item,index) in bdsList" :key="index">
+				<view @click="selectDevice(index)">{{item.title}}</view>
+			</view>
+		</view> -->
 		<view>********服务********</view>
 		<button type="primary" @click="getServices">获取设备服务</button>
 		<view>服务：{{serviceValue}}</view>
 		<view>服务Id：{{serviceId}}</view>
-		<button type="primary" @click="selectService">选择 服务</button>
+		<button type="primary" @click="selectService">展开服务列表</button>
+		<!-- 服务列表 -->
+		<!-- <view>服务列表:</view>
+		<view v-if="bssList.length > 0">
+			<view v-for="(item,index) in bssList" :key="index">
+				<view @click="selectService(index)">{{item.title}}</view>
+			</view>
+		</view> -->
 		<button type="primary" @click="getCharacteristics">获取服务的特征值</button>
 		<view>读取特征值：{{characteristicValue}}</view>
-		<button type="primary" @click="selectCharacteristic">选择 服务的特征值</button>
+		<button type="primary" @click="selectCharacteristic">展开服务的特征值列表</button>
 		<button type="primary" @click="readValue">读取特征值数据</button>
 		<view>读取数据：{{readvalueValue}}</view>
-		<hr/>
-		<br/>
-		<view>写入特征值：{{wcharacteristicValue}}</view>
-		<button type="primary" @click="selectwCharacteristic">选择 写入特征值</button>
-		<button type="primary" @click="writeValue">写入特征值数据</button>
-		<view>
-			写入数据：
-			<input type="text" v-model="writevalue" placeholder="请输入">
-		</view>
-		<button type="primary" @click="closeBLEConnection">断开蓝牙设备</button>
-		<button type="primary" @click="closeBluetoothAdapter">关闭蓝牙模块</button>
-		
 		<view>
 			监听蓝牙适配器状态变化事件：<br/>
 			蓝牙适配器是否可用：{{state.available}}
@@ -56,7 +58,6 @@
 				bscws: [], // 可写特征值列表
 				wcharacteristicId: null,
 				wcharacteristicValue: '',
-				writevalue: 'test',
 				state: {
 					available: false,
 					discovering: false
@@ -72,8 +73,14 @@
 						that.onBluetoothAdapterStateChange()
 						that.startBluetoothDevicesDiscovery()
 						that.onBluetoothDeviceFound()
-						that.onBLEConnectionStateChange()
-						that.onBLECharacteristicValueChange()
+					}
+				})
+			},
+			// 关闭蓝牙模块
+			closeBluetoothAdapter() {
+				uni.closeBluetoothAdapter({
+					success(res) {
+						console.log(res)
 					}
 				})
 			},
@@ -427,118 +434,6 @@
 					}
 				});
 			},
-			// 读取特征值数据 
-			readValue() {
-				let that = this
-				let deviceId = that.deviceId
-				let bconnect = that.bconnect
-				let serviceId = that.serviceId
-				let characteristicId = that.characteristicId
-				if (!deviceId) {
-					uni.showToast({title: '未选择设备',icon: "none"});
-					return;
-				}
-				if (!bconnect) {
-					uni.showToast({title: '未连接蓝牙设备',icon: "none"});
-					return;
-				}
-				if (!serviceId) {
-					uni.showToast({title: '未选择服务',icon: "none"});
-					return;
-				}
-				if (!characteristicId) {
-					uni.showToast({title: '未选择读取的特征值',icon: "none"});
-					return;
-				}
-				uni.readBLECharacteristicValue({
-					deviceId,
-					serviceId,
-					characteristicId,
-					success(res) {
-						console.log('readBLECharacteristicValue:', res.errCode)
-					}
-				})
-			},
-			// 选择特征值(写入) 
-			selectwCharacteristic() {
-				let that = this
-				let bscws = that.bscws
-				if (bscws.length <= 0) {
-					uni.showToast({title: '未获取到有效可写特征值',icon: "none"});
-					return;
-				}
-				var bts = [];
-				for (var i in bscws) {
-					bts.push({
-						title: bscws[i].uuid
-					});
-				}
-				plus.nativeUI.actionSheet({
-					title: '选择特征值',
-					cancel: '取消',
-					buttons: bts
-				}, function(e) {
-					if (e.index > 0) {
-						that.wcharacteristicValue = that.wcharacteristicId = bscws[e.index - 1].uuid
-					}
-				});
-			},
-			// 写入特征值数据 
-			writeValue() {
-				let that = this
-				let deviceId = that.deviceId
-				let bconnect = that.bconnect
-				let serviceId = that.serviceId
-				let wcharacteristicId = that.wcharacteristicId
-				let writevalue = that.writevalue
-				if (!deviceId) {
-					uni.showToast({title: '未选择设备',icon: "none"});
-					return;
-				}
-				if (!bconnect) {
-					uni.showToast({title: '未连接蓝牙设备',icon: "none"});
-					return;
-				}
-				if (!serviceId) {
-					uni.showToast({title: '未选择服务',icon: "none"});
-					return;
-				}
-				if (!wcharacteristicId) {
-					uni.showToast({title: '未选择写入的特征值',icon: "none"});
-					return;
-				}
-				var value = writevalue;
-				if (!value || value == '') {
-					uni.showToast({title: '请输入需要写入的数据',icon: "none"});
-					return;
-				}
-				// 转换为ArrayBuffer写入蓝牙
-				that.str2ArrayBuffer(value, function(buffer) {
-					console.log('写入蓝牙设备的特征值数据: ');
-					let characteristicId = wcharacteristicId
-					uni.writeBLECharacteristicValue({
-						deviceId,
-						serviceId,
-						characteristicId,
-						value: buffer,
-						success(res) {
-							console.log('写入数据成功!');
-							console.log('writeBLECharacteristicValue success', res.errMsg)
-						}
-					})
-				});
-			},
-			str2ArrayBuffer(s, f) {
-				//     var b = new Blob([s],{type:'text/plain,charset=GBK'});
-				//     var r = new FileReader();
-				//     r.readAsArrayBuffer(b);
-				//     r.onload = function(){if(f)f.call(null,r.result)}
-				var buffer = new ArrayBuffer(2);
-				var x2 = new Uint8Array(buffer);
-				x2[0] = 0x62;
-				x2[1] = 0x11;
-				if (f) f.call(null, buffer);
-			},
 			resetDevices(d, s) {
 				var that = this
 				if(!d) {
@@ -570,33 +465,6 @@
 				)
 				return hexArr.join('')
 			},
-			// 断开蓝牙设备
-			closeBLEConnection() {
-				let that = this
-				let deviceId = that.deviceId
-				if (!deviceId) {
-					uni.showToast({title: '未选择设备',icon: "none"});
-					return;
-				}
-				that.resetDevices(true);
-				console.log('断开蓝牙设备连接：');
-				uni.closeBLEConnection({
-					deviceId,
-					success(res) {
-						console.log('断开连接成功')
-					}
-				})
-			},
-			// 关闭蓝牙
-			closeBluetoothAdapter() {
-				outSet('关闭蓝牙适配器：');
-				that.resetDevices();
-				uni.closeBluetoothAdapter({
-					success(res) {
-						console.log('关闭成功')
-					}
-				})
-			}
 		}
 	}
 </script>
