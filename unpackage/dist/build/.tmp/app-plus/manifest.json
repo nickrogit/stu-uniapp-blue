@@ -10,7 +10,7 @@
     "name": "1.0.0",
     "code": "100"
   },
-  "description": "应用描述",
+  "description": "蓝牙测试demo",
   "launch_path": "__uniapptabbar.html",
   "developer": {
     "name": "",
@@ -22,6 +22,7 @@
     "Bluetooth": {},
     "Statistic": {},
     "Speech": {},
+    "iBeacon": {},
     "UniNView": {
       "description": "UniNView原生渲染"
     }
@@ -112,6 +113,22 @@
         }
       }
     },
+    "nativePlugins": {
+      "DCloud-RichAlert": {
+        "__plugin_info__": {
+          "name": "RichAlert",
+          "description": "示例插件",
+          "platforms": "Android,iOS",
+          "url": "",
+          "android_package_name": "",
+          "ios_bundle_id": "",
+          "isCloud": false,
+          "bought": -1,
+          "pid": "",
+          "parameters": {}
+        }
+      }
+    },
     "allowsInlineMediaPlayback": true,
     "safearea": {
       "background": "#F8F8F8",
@@ -120,8 +137,9 @@
       }
     },
     "uni-app": {
-      "compilerVersion": "1.9.7",
-      "control": "v8"
+      "compilerVersion": "2.0.0",
+      "control": "v8",
+      "nvueCompiler": "weex"
     },
     "secondwebview": {
       "id": "1",

@@ -24,15 +24,15 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.bluetooth.data-v-19c1f24c {
+.bluetooth.data-v-270b7f8c {
   padding: 20rpx 20rpx 120rpx;
 }
-.bluetooth .h1.data-v-19c1f24c {
+.bluetooth .h1.data-v-270b7f8c {
     padding: 20rpx 0;
     color: #1482D1;
     border-top: 1rpx solid #EFEFF4;
 }
-.bluetooth .btn.data-v-19c1f24c {
+.bluetooth .btn.data-v-270b7f8c {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -48,36 +48,39 @@
     border-top: 1px solid #f2f2f2;
     background-color: #fff;
 }
-.bluetooth .btn view.data-v-19c1f24c {
+.bluetooth .btn view.data-v-270b7f8c {
       width: 200rpx;
       height: 80rpx;
       line-height: 80rpx;
       text-align: center;
-      border-radius: 10rpx;
+      -webkit-border-radius: 10rpx;
+              border-radius: 10rpx;
 }
-.bluetooth .btn .btn_1.data-v-19c1f24c {
+.bluetooth .btn .btn_1.data-v-270b7f8c {
       background-color: #009BDE;
 }
-.bluetooth .btn .btn_2.data-v-19c1f24c {
+.bluetooth .btn .btn_2.data-v-270b7f8c {
       background-color: red;
 }
-.bluetooth .btn .btn_3.data-v-19c1f24c {
+.bluetooth .btn .btn_3.data-v-270b7f8c {
       background-color: #3CB371;
 }
-.bluetooth .uni-textarea textarea.data-v-19c1f24c {
+.bluetooth .uni-textarea textarea.data-v-270b7f8c {
     border: 1px solid #EFEFF4;
-    border-radius: 10px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     width: 100%;
     padding: 10rpx;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
-.bluetooth .uni-textarea .fasong.data-v-19c1f24c {
+.bluetooth .uni-textarea .fasong.data-v-270b7f8c {
     width: 100%;
     padding: 15rpx 10rpx;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    border-radius: 10px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
     background: #1482D1;
     text-align: center;
     color: white;
